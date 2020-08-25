@@ -2,7 +2,7 @@ package ar.com.ada.online.second.objectexercisetwo;
 
 public class Vehicle {
     String brand;
-    String maxSpeed;
+    Integer maxSpeed;
     String color;
 
 
