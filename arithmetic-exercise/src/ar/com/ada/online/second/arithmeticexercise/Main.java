@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        double  a;
+        double a;
         double b;
         Scanner keyboard = new Scanner(System.in);
 
@@ -19,19 +19,19 @@ public class Main {
 
         calculo.sum(a, b, resultado);
         double sumResult = resultado.getResultSum();
-        System.out.println("El resultado de A + B es: "+ sumResult);
+        System.out.println("El resultado de A + B es: " + sumResult);
 
-        calculo.subtraction(a,b, resultado);
+        calculo.subtraction(a, b, resultado);
         double subtractionResult = resultado.getResultSubtraction();
-        System.out.println("El resultado de A - B es: "+ subtractionResult);
+        System.out.println("El resultado de A - B es: " + subtractionResult);
 
-        calculo.multiplication(a,b,resultado);
+        calculo.multiplication(a, b, resultado);
         double multiplicationResult = resultado.getResultMultiplication();
-        System.out.println("El resultado de A * B es: "+ multiplicationResult);
+        System.out.println("El resultado de A * B es: " + multiplicationResult);
 
-        calculo.division(a,b,resultado);
+        calculo.division(a, b, resultado);
         double divisionResult = resultado.getResultDivision();
-        System.out.println("El resultado de A / B es: "+ divisionResult);
+        System.out.println("El resultado de A / B es: " + divisionResult);
 
 
     }

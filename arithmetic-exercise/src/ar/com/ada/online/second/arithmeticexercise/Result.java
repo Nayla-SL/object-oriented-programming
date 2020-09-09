@@ -2,10 +2,10 @@ package ar.com.ada.online.second.arithmeticexercise;
 
 public class Result {
 
-    private double resultSum;
-    private double resultSubtraction;
-    private double resultMultiplication;
-    private double resultDivision;
+    private Double resultSum;
+    private Double resultSubtraction;
+    private Double resultMultiplication;
+    private Double resultDivision;
 
     //constructor
     public Result() {
@@ -13,39 +13,37 @@ public class Result {
     }
 
     // getters & setters
-    public double getResultSum() {
+    public Double getResultSum() {
         return resultSum;
     }
 
-    public void setResultSum(double resultSum) {
+    public void setResultSum(Double resultSum) {
         this.resultSum = resultSum;
     }
 
-    public double getResultSubtraction() {
+    public Double getResultSubtraction() {
         return resultSubtraction;
     }
 
-    public void setResultSubtraction(double resultSubtraction) {
+    public void setResultSubtraction(Double resultSubtraction) {
         this.resultSubtraction = resultSubtraction;
     }
 
-    public double getResultMultiplication() {
+    public Double getResultMultiplication() {
         return resultMultiplication;
     }
 
-    public void setResultMultiplication(double resultMultiplication) {
+    public void setResultMultiplication(Double resultMultiplication) {
         this.resultMultiplication = resultMultiplication;
     }
 
-    public double getResultDivision() {
+    public Double getResultDivision() {
         return resultDivision;
     }
 
-    public void setResultDivision(double resultDivision) {
+    public void setResultDivision(Double resultDivision) {
         this.resultDivision = resultDivision;
     }
-
-
 
 
 }
