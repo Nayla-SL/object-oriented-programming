@@ -48,11 +48,11 @@ public class Vehicle {
         this.year = year;
     }
 
-    public void technicalSheet() {
-        //String.format("Marca: %s\n Modelo: %s\n Año: %d \n Este vehiculo no tiene categoria asignada"
-        System.out.printf("Marca: %s\n", getBrand());
-        System.out.printf("Modelo: %s\n", getModel());
-        System.out.printf("Año: %s\n", getYear());
+    public String technicalSheet() {
+        return String.format("Brand: %s\n Model: %s\n Year: %d\n Este vehículo no tiene categoría asignada \n",
+                getBrand(),
+                getModel(),
+                getYear());
     }
 
     //Overrides
@@ -79,5 +79,7 @@ public class Vehicle {
                 year
         );
     }
+
+
 }
 
