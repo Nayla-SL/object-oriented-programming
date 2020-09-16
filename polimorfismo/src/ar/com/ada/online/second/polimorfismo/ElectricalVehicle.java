@@ -11,7 +11,7 @@ public class ElectricalVehicle extends Vehicle {
     }
 
     public ElectricalVehicle(Integer potency) {
-        this.potency = potency;
+    this.potency = potency;
     }
 
     public ElectricalVehicle(String brand, String model, Integer year, Integer potency) {
